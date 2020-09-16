@@ -1,13 +1,11 @@
 ---
 layout: post
-title: Contributions
-description: Here i contributed my works
-image: assets/images/pic11.jpg
+title: About Me
+description: 
 nav-menu: true
 ---
 
-## CesiumOS
-As Developer and Device Maintainer
+## Hi, my name is HeroBuxx
+But, my Real Name is Alif Fathur Mohd. Revan. My family and friends usually called my Alif or Fathur.
 
-## ResurrectionRemix
-As Device maintainer
+I love wathing Animes, making music with messy mastering, adn ofc Android development.
