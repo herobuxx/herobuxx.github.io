@@ -1,6 +1,6 @@
 ---
 layout: page
-title: My Rpojects
+title: My Projects
 nav-menu: true
 ---
 
