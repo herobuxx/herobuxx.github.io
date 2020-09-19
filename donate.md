@@ -1,12 +1,11 @@
 ---
 layout: page
-title: My Projects
-nav-menu: true
+title: Donate Me!
+nav-menu: false
 ---
 
+# Donate Me!
 Help me on Android developemnt by donating some!
-
-# Donation Button
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/herobuxx)
 
