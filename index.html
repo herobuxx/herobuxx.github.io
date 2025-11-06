@@ -864,28 +864,55 @@
     </p>
     </section>
 
-    <section class="card text-center">
-    <h2 class="text-3xl font-semibold text-cyan-300 mb-4 ai-glow">
-        💸 Support HeroSuxx’s Totally Necessary Personal Expenses 🛍️
-    </h2>
-    <p class="text-slate-300 text-lg leading-relaxed mb-6">
-        Your generous donations will directly fund HeroSuxx’s most critical life missions — 
-        including (but not limited to) buying RGB mousepads, rare anime figurines, 
-        and “limited edition” mechanical keyboards he’ll use once and forget. 🎮💅  
-        <br><br>
-        Every cent helps him continue his noble journey of <strong>copying, pasting, and pretending it’s innovation</strong>.  
-        Because true art deserves unnecessary upgrades. 🌈✨
-    </p>
+<section class="card text-center relative">
+  <h2 class="text-3xl font-semibold text-cyan-300 mb-4 ai-glow">
+    💸 Support HeroSuxx’s Totally Necessary Personal Expenses 🛍️
+  </h2>
+  <p class="text-slate-300 text-lg leading-relaxed mb-6">
+    Your generous donations will directly fund HeroSuxx’s most critical life missions — 
+    including (but not limited to) buying RGB mousepads, rare anime figurines, 
+    and “limited edition” mechanical keyboards he’ll use once and forget. 🎮💅  
+    <br><br>
+    Every cent helps him continue his noble journey of <strong>copying, pasting, and pretending it’s innovation</strong>.  
+    Because true art deserves unnecessary upgrades. 🌈✨
+  </p>
 
-    <a href="https://vip.hlcyn.co" target="_blank" 
-        class="inline-block bg-gradient-to-r from-teal-400 to-cyan-500 text-slate-900 font-semibold px-6 py-3 rounded-2xl shadow-lg hover:scale-105 hover:shadow-cyan-400/50 transition-all duration-300">
-        💰 Donate Now
-    </a>
+  <!-- Donate button triggers popup -->
+  <button id="donateBtn" 
+    class="inline-block bg-gradient-to-r from-teal-400 to-cyan-500 text-slate-900 font-semibold px-6 py-3 rounded-2xl shadow-lg hover:scale-105 hover:shadow-cyan-400/50 transition-all duration-300">
+    💰 Donate Now
+  </button>
 
-    <p class="text-slate-400 text-sm mt-4">
-        *All donations are non-refundable and will 100% be spent irresponsibly.  
-    </p>
-    </section>
+  <p class="text-slate-400 text-sm mt-4">
+    *All donations are non-refundable and will 100% be spent irresponsibly.  
+  </p>
+</section>
+
+  <!-- Popup Modal -->
+  <div id="donatePopup" class="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50">
+    <div class="bg-slate-900 border border-cyan-400/30 rounded-2xl p-6 max-w-md mx-auto text-center shadow-xl">
+      <h3 class="text-2xl font-semibold text-cyan-300 mb-3 ai-glow">⚠️🚨⚠️🚨⚠️🚨⚠️🚨⚠️🚨</h3>
+      <p class="text-slate-300 mb-4">
+        ⚠️ By accessing this website, you hereby consent to us collecting your data, your hopes, and possibly your browser history —  
+        all to proudly fund North Korea’s next-generation <strong>💥 nuclear peew-peew program 🚀✨</strong>.  
+        Thank you for your unwanted contribution! 🇰🇵😂 
+     </p>
+      <button id="closePopup" 
+        class="mt-4 bg-gradient-to-r from-cyan-500 to-teal-400 text-slate-900 font-semibold px-4 py-2 rounded-xl hover:scale-105 transition-all duration-300">
+        Close
+      </button>
+    </div>
+  </div>
+
+<!-- JS for Popup -->
+<script>
+  const donateBtn = document.getElementById('donateBtn');
+  const popup = document.getElementById('donatePopup');
+  const closePopup = document.getElementById('closePopup');
+
+  donateBtn.addEventListener('click', () => popup.classList.remove('hidden'));
+  closePopup.addEventListener('click', () => popup.classList.add('hidden'));
+</script>
 
   </main>
 
