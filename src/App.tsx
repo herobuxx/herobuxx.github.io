@@ -327,7 +327,7 @@ const sections = [
             <a href="https://github.com/herobuxx" target="_blank" rel="noopener noreferrer" className="px-3 md:px-4 py-1.5 md:py-2 border border-gray-700 rounded hover:border-gray-500 transition-colors text-xs md:text-sm">
               GitHub
             </a>
-            <a href="https://linkedin.com/in/alifffathur" target="_blank" rel="noopener noreferrer" className="px-3 md:px-4 py-1.5 md:py-2 border border-gray-700 rounded hover:border-gray-500 transition-colors text-xs md:text-sm">
+            <a href="https://linkedin.com/in/herobuxx" target="_blank" rel="noopener noreferrer" className="px-3 md:px-4 py-1.5 md:py-2 border border-gray-700 rounded hover:border-gray-500 transition-colors text-xs md:text-sm">
               LinkedIn
             </a>
             <a href="https://t.me/herobuxx" target="_blank" rel="noopener noreferrer" className="px-3 md:px-4 py-1.5 md:py-2 border border-gray-700 rounded hover:border-gray-500 transition-colors text-xs md:text-sm">
