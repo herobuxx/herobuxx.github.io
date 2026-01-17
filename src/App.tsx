@@ -198,14 +198,14 @@ const sections = [
               title: "Halcyon",
               description: "Android distribution",
               tech: ["Android", "AOSP", "Linux"],
-              icon: <Smartphone className="w-4 h-4" />,
+              icon: <img src="/assets/halcyon.svg" alt="Halcyon" className="w-4 h-4 filter invert brightness-0" />,
               link: "https://hlcyn.co"
             },
             {
               title: "conquerOS",
               description: "Android ROM for Snapdragon",
               tech: ["Android", "Optimization"],
-              icon: <Cpu className="w-4 h-4" />,
+              icon: <img src="/assets/conquer.svg" alt="Halcyon" className="w-4 h-4 filter invert brightness-0" />,
               link: "https://github.com/conquerOS"
             }
           ].map((project, index) => {
