@@ -11,7 +11,6 @@ import {
   Code,
   GraduationCap,
   Users,
-  Cpu,
   Database,
   Server,
   Terminal,
