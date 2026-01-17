@@ -7,6 +7,19 @@ html, body {
   height: 100%;
 }
 
+/* Prevent pull-to-refresh on mobile */
+body {
+  overscroll-behavior-y: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Improve touch targets on mobile */
+button, a {
+  touch-action: manipulation;
+  min-height: 44px;
+  min-width: 44px;
+}
+
 /* Fade In Animation */
 @keyframes fadeIn {
   from {
@@ -72,4 +85,24 @@ html, body {
 /* Prevent text selection during transitions */
 .no-select {
   user-select: none;
+}
+
+/* Make sure content scales properly on mobile */
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  
+  .text-4xl {
+    font-size: 2.25rem !important;
+  }
+  
+  .text-2xl {
+    font-size: 1.5rem !important;
+  }
+  
+  /* Ensure buttons are tappable */
+  button, a {
+    cursor: pointer;
+  }
 }
